@@ -12,7 +12,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://your-frontend-url.netlify.app'],
+  origin: ['http://localhost:3000', 'https://digital-diary-x4qf.vercel.app'],
   credentials: true
 }));
 app.use(express.json());
